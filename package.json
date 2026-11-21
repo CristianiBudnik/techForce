@@ -1,0 +1,17 @@
+{
+  "name": "acervo-biblioteca",
+  "version": "1.0.0",
+  "description": "Aplicação de console em TypeScript para consolidar conceitos de orientação a objetos.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "demo": "ts-node src/demo.ts",
+    "build": "tsc",
+    "start:dist": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
